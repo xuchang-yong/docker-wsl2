@@ -136,6 +136,7 @@ wsl -l -v
 Open PowerShell, navigate to the repository folder, and run `docker-wsl2-context.ps1`.
 
 # Example: create context for Ubuntu-22.04 on port 2375 and set it as default
+```powershell
 .\docker-wsl2-context.ps1 -Wsl2VmName "Ubuntu-22.04" -Port 2375 -SetDefault $true
 ```
 Script parameters:
